@@ -96,7 +96,7 @@ func main() {
 
 	scheduledProcesses := fmt.Sprintln("Scheduled Processes Are:", scheduledProcessesResponse.ScheduledProcesses)
 	averageWaitingTime := fmt.Sprintln("Average Waiting Time is:", scheduledProcessesResponse.AverageWaitingTime)
-	averageTurnAroundTime := fmt.Sprintln("Average Turn Around Time is:", scheduledProcessesResponse.AverageWaitingTime)
+	averageTurnAroundTime := fmt.Sprintln("Average Turn Around Time is:", scheduledProcessesResponse.AverageTurnAroundTime)
 
 	fmt.Print(scheduledProcesses)
 	fmt.Print(averageWaitingTime)
